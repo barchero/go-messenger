@@ -1,17 +1,8 @@
 {
 	"ImportPath": "github.com/usmanismail/go-messenger/go-auth",
 	"GoVersion": "go1.4.2",
+	"GodepVersion": "v78",
 	"Deps": [
-		{
-			"ImportPath": "code.google.com/p/go.crypto/bcrypt",
-			"Comment": "null-236",
-			"Rev": "69e2a90ed92d03812364aeb947b7068dc42e561e"
-		},
-		{
-			"ImportPath": "github.com/stretchr/testify",
-			"Comment": "Merge pull request #186 from MCProHosting/master",
-			"Rev": "089c7181b8c728499929ff09b62d3fdd8df8adff"
-		},
 		{
 			"ImportPath": "github.com/codegangsta/cli",
 			"Comment": "1.2.0-66-g6086d79",
@@ -33,6 +24,10 @@
 		{
 			"ImportPath": "github.com/op/go-logging",
 			"Rev": "e8d5414f0947014548c2334044a0fac13187dfee"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/bcrypt",
+			"Rev": "4831188890de893ae55d9ecd1bbafc340ce0ff9f"
 		},
 		{
 			"ImportPath": "golang.org/x/crypto/blowfish",
